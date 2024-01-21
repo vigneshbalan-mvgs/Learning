@@ -34,4 +34,10 @@ let result  = = data
 }, {});
 
 
+myMap.map((item) => {
+
+  
+})
+
+
 
