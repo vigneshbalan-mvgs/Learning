@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage learning</title>
+  </head>
+  <style></style>
+  <body></body>
+  <script type="text/javascript">
+    let myObj = {
+      name: "Vicky",
+      age: 21,
+    };
+
+    let myObj_serialized = JSON.stringify(myObj);
+
+    localStorage.setItem("myObj", myObj_serialized);
+
+    let myObj_deserialized = JSON.parse(localStorage.getItem("myObj"));
+    console.log(myObj_deserialized);
+  </script>
+</html>
