@@ -1,5 +1,4 @@
 let nums = new Set(); //call the contractor
-//
 //is repeted that means it not going to store in it
 nums.add(3);
 nums.add(4);
