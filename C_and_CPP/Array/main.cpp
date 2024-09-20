@@ -25,6 +25,5 @@ int main() {
   // cout << A[8] << endl;
   // printf("%d\n", A[9]);
 
-
   return 0;
 }
